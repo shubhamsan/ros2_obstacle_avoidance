@@ -1,0 +1,19 @@
+# TurtleBot3 Specs:
+# - Max linear velocity: ~0.26 m/s
+# - Max angular velocity: ~1.82 rad/s
+# - LIDAR range: 0.12m - 3.5m
+# - LIDAR: 360 readings (360°)
+
+obstacle_avoider:
+  ros__parameters:
+    safety_distance: 0.5      
+    linear_speed: 0.22       
+    angular_speed: 1.5        
+    front_angle_range: 35.0   
+    side_angle_range: 30.0    
+
+status_logger:
+  ros__parameters:
+    log_to_file: false
+    log_file: 'turtlebot3_status.log'
+    log_directory: '~/ros2_logs'
