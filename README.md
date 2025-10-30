@@ -177,7 +177,7 @@ To Log the file change the log_to_file parameter to True default is false
 ```
 2025-10-29 19:22:41.608, AVOIDING_OBSTACLE, 0.49, 2.11, 0.43, 0.000, 1.500
 2025-10-29 19:22:41.810, MOVING_FORWARD,    1.08, 1.17, 0.41, 0.220, 0.000
-
+```
 🎥 Demo Video
 
 Watch the full obstacle avoidance demo here:
